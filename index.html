@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleHub - Katalog Produk</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                StyleHub
+            </a>
+
+            <!-- Hamburger -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Beranda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk">
+                            Produk
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">
+                            Kontak
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="container text-center">
+
+            <h1>
+                Temukan Produk Favoritmu
+            </h1>
+
+            <p>
+                Katalog fashion pilihan dengan desain modern
+                dan harga yang terjangkau.
+            </p>
+
+            <a href="#produk" class="btn btn-dark btn-lg">
+                Lihat Produk
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- ================= PRODUK ================= -->
+    <section id="produk" class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="section-title">
+                    Katalog Produk
+                </h2>
+
+                <p class="text-muted">
+                    Pilih produk yang sesuai dengan kebutuhanmu.
+                </p>
+
+            </div>
+
+
+            <!-- GRID PRODUK -->
+            <div class="row g-4">
+
+
+                <!-- PRODUK 1 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/hoodie.jpg"
+                            class="card-img-top product-image"
+                            alt="Hoodie Basic"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Hoodie Basic
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Hoodie nyaman dengan desain sederhana
+                                untuk aktivitas sehari-hari.
+                            </p>
+
+                            <h5 class="price">
+                                Rp149.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 2 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/tshirt.jpg"
+                            class="card-img-top product-image"
+                            alt="T-Shirt Casual"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                T-Shirt Casual
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Kaos casual dengan bahan nyaman
+                                untuk digunakan setiap hari.
+                            </p>
+
+                            <h5 class="price">
+                                Rp89.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 3 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/sneakers.jpg"
+                            class="card-img-top product-image"
+                            alt="Sneakers Casual"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Sneakers Casual
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Sepatu sneakers dengan desain modern
+                                untuk berbagai aktivitas.
+                            </p>
+
+                            <h5 class="price">
+                                Rp249.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 4 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/backpack.jpg"
+                            class="card-img-top product-image"
+                            alt="Backpack Urban"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Backpack Urban
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Tas praktis untuk kuliah, kerja,
+                                maupun aktivitas sehari-hari.
+                            </p>
+
+                            <h5 class="price">
+                                Rp179.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 5 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/watch.jpg"
+                            class="card-img-top product-image"
+                            alt="Classic Watch"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Classic Watch
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Jam tangan dengan tampilan minimalis
+                                dan elegan.
+                            </p>
+
+                            <h5 class="price">
+                                Rp199.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 6 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/jeans.jpg"
+                            class="card-img-top product-image"
+                            alt="Jeans Classic"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Jeans Classic
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Celana jeans dengan model klasik
+                                yang mudah dipadukan.
+                            </p>
+
+                            <h5 class="price">
+                                Rp189.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 7 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/jacket.jpg"
+                            class="card-img-top product-image"
+                            alt="Jacket Outdoor"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Jacket Outdoor
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Jaket ringan dengan desain modern
+                                untuk aktivitas luar ruangan.
+                            </p>
+
+                            <h5 class="price">
+                                Rp229.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUK 8 -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card product-card h-100">
+
+                        <img
+                            src="images/cap.jpg"
+                            class="card-img-top product-image"
+                            alt="Cap Minimalist"
+                        >
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h5 class="card-title">
+                                Cap Minimalist
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                Topi casual dengan desain minimalis
+                                untuk melengkapi penampilan.
+                            </p>
+
+                            <h5 class="price">
+                                Rp69.000
+                            </h5>
+
+                            <a href="#" class="btn btn-dark mt-auto">
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TENTANG ================= -->
+    <section id="tentang" class="about-section py-5">
+
+        <div class="container text-center">
+
+            <h2>
+                Tentang StyleHub
+            </h2>
+
+            <p>
+                StyleHub merupakan katalog produk sederhana
+                yang menyediakan berbagai pilihan fashion
+                dengan tampilan modern dan responsif.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="kontak" class="footer">
+
+        <div class="container text-center">
+
+            <h5>
+                StyleHub
+            </h5>
+
+            <p>
+                Katalog Produk Fashion Responsif
+            </p>
+
+            <p class="mb-0">
+                © 2026 StyleHub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
